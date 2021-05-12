@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+figure.snip1315{font-family:Raleway,Arial,sans-serif;position:relative;overflow:hidden;width:100%;color:#000;text-align:center;height:450px;background-repeat:no-repeat;background-position:center center;background-size:cover}
+figure.snip1315 *{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:all .6s ease;transition:all .6s ease}
+figure.snip1315 img{opacity:1;width:100%}
+figure.snip1315:after,figure.snip1315:before{background:#fff;width:100%;height:0;position:absolute;content:'';opacity:.5;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out;z-index:1}
+figure.snip1315:after{top:0;left:0}
+figure.snip1315:before{right:0;bottom:0}
+figure.snip1315 figcaption{position:absolute;top:50%;left:0;width:100%;-webkit-transform:translateY(-50%);transform:translateY(-50%);z-index:2}
+figure.snip1315 h2,figure.snip1315 p{margin:0;width:100%;opacity:0}
+figure.snip1315 h2{padding:0 30px;font-weight:400;text-transform:uppercase}
+figure.snip1315 p{padding:0 50px;font-size:.8em;font-weight:500}
+figure.snip1315 a{left:0;right:0;top:0;bottom:0;position:absolute;z-index:2}
+figure.snip1315.hover img,figure.snip1315:hover img{-webkit-filter:grayscale(100%);filter:grayscale(100%)}
+figure.snip1315.hover:after,figure.snip1315.hover:before,figure.snip1315:hover:after,figure.snip1315:hover:before{width:100%;height:100%}
+figure.snip1315.hover figcaption h2,figure.snip1315.hover figcaption p,figure.snip1315:hover figcaption h2,figure.snip1315:hover figcaption p{-webkit-transition-delay:.2s;transition-delay:.2s}
+figure.snip1315.hover figcaption h2,figure.snip1315:hover figcaption h2{opacity:1}
+figure.snip1315.hover figcaption p,figure.snip1315:hover figcaption p{opacity:.7}
